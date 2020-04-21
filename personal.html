@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Felicia Ardelean Portfolio </title>
+        <title>Felicia Ardelean Portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
@@ -30,55 +30,22 @@
                 </ul>
             </nav>
         </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
+
+
+        <section class="intro" >
             <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Felicia Ardelean</strong>
+                Personal Achievements <strong>of my project</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Dietetic Technician</p>
-            <img src="img/feli_2.jpg" alt="a picture of Felicia smiling" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">A short subtitle</p>
+            <img src="img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg" alt="" class="intro__img">
         </section>
         
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">My Goals</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Short Term </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Long Term</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Something</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Dietetic Technician from Cleveland, OH</p>
-           
-           <div class="about-me__body">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-           </div>
-           
-           <img src="img/feli_2.jpg" alt="" class="about-me__img">
-        </section>
-        
-        <!-- My Work -->
+        <div class="portfolio-item-individual">
+            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+            <img src="img/dan-gold-4_jhDO54BYg-unsplash.jpg" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
+            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+        </div>
         <section class="my-work" id="work">
             <h2 class="section__title section__title--work">My work</h2>
             <!-- <p class="section__subtitle section__subtitle--work">A selection of my work</p> -->
@@ -141,6 +108,8 @@
                 <!-- </a>  -->
             </div>
         </section>
+
+        
         
         
         <!-- Footer -->
@@ -153,63 +122,12 @@
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </li> -->
-          </ul>
-          <p> &copy; 2019<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></p>
+               
+            </ul>
         </footer>
-
-        <script src="js/index.js"></script>
-        <style>
-            body {
-              font-family: Arial, Helvetica, sans-serif;
-              font-size: 20px;
-            }
-            
-            #myBtn {
-              display: none;
-              position: fixed;
-              bottom: 20px;
-              right: 30px;
-              z-index: 99;
-              font-size: 18px;
-              border: none;
-              outline: none;
-              background-color: rgb(42, 26, 26);
-              color: white;
-              cursor: pointer;
-              padding: 15px;
-              border-radius: 4px;
-            }
-            
-            #myBtn:hover {
-              background-color: #555;
-            }
-            </style>
-                        
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Scroll Up</button>
-            
-           
-            <script>
-            //Get the button
-            var mybutton = document.getElementById("myBtn");
-            
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-              } else {
-                mybutton.style.display = "none";
-              }
-            }
-            
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-            }
-            </script>
         
+        
+        <script src="js/index.js"></script>
         
     </body>
 </html>
