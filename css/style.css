@@ -58,6 +58,7 @@ section {
 img {
     display: block;
     max-width: 100%;
+    
 }
 
 strong { font-weight: var(--fw-bold) }
@@ -469,6 +470,7 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .portfolio-item-individual-cases {
     text-align: center;
