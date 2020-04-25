@@ -480,3 +480,31 @@ header {
     max-width: 1000px;
     margin: 0 auto;
 }
+.button {
+    display: inline-block;
+    margin-left: 400px;
+    padding: .5em 2.5em;
+    margin-bottom: 30px;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+.portfolio-item-individual p{
+    text-align: center;
+    font-size: 1em ;
+    
+}
+.portfolio-item-individual h2{
+    text-align: center;
+    font-size: 2em ;
+}
