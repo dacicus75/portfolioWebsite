@@ -679,3 +679,7 @@ ul.demo {
     margin: 0;
     padding: 0;
   }
+  mark.blue {
+    color:#0000A0;
+    background: none;
+}
