@@ -674,3 +674,8 @@ header {
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
