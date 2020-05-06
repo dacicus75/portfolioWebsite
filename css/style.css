@@ -534,7 +534,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* fraction*/
   }
- 
+  .card:hover {
+    box-shadow: 0 16px 24px 0 rgba(94, 72, 2, 0.2);
+  }
   /* Float four columns side by side */
   .column {
     float: left;
